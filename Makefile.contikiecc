@@ -34,7 +34,6 @@ ifeq ($(TARGET),wismote)
 endif
 
 
-
 # We assume that native implies x86 (FIX: Don't make this naive assumption)
 ifeq ($(TARGET),native)
 # All word lengths except eight appears to be broken in this port
